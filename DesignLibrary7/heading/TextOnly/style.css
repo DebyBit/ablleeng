@@ -1,0 +1,10 @@
+.TextOnly_heading_style {
+display: block;
+Height: auto;
+FONT-FAMILY: 'Open Sans', sans-serif;
+FONT-SIZE: 28px;
+font-weight: bold;
+COLOR: #333333;
+border: 0;
+text-align:left;
+}

@@ -1,0 +1,34 @@
+a.style01_purple0005_button:visited,
+a.style01_purple0005_button {
+	width: 100%;	
+	background-color:#7f267f;
+	border:2px solid #7f267f;
+	color:#ebe5eb;
+	display: inline-block;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 20px;
+	text-align: center;
+	cursor:pointer;
+	cursor:hand;
+  	-webkit-border-radius: 8px;
+  	-moz-border-radius: 8px;
+  	border-radius: 8px;
+	vertical-align: middle;	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.style01_purple0005_button:hover,
+a.style01_purple0005_button:focus {
+	background-color:#b13ab1;
+	border:2px solid #b13ab1;
+	COLOR: #FFFFFF;
+	text-decoration:none;
+}

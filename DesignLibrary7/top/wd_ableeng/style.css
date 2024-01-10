@@ -1,0 +1,304 @@
+﻿/* ### Background ### */
+.top_bg {
+background-color:#FFFFFF;
+}		
+
+/* ### [>] Register, ... ### */
+a.top_pointer1, a.top_pointer1:visited, a.top_pointer1:active, a.top_pointer1:link {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/pointer1.png');
+	COLOR: #4c4c4c;
+
+	display: inline-block; 
+	width: auto;
+	Height: auto;
+	line-height: 20px;
+	text-align: left;
+	text-decoration: none;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	FONT-SIZE: 15px;
+	font-weight: normal;
+	border: 0;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 24px;
+}
+
+/* ### [>] Register, ... (MouseOver) ### */
+a.top_pointer1:hover, a.top_pointer1:focus {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/pointer1_on.png');
+	COLOR: #f04e23;
+
+	text-decoration: none;
+}
+
+/* ### [>] Cart, ... ### */
+a.top_pointer3, a.top_pointer3:visited, a.top_pointer3:active, a.top_pointer3:link {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/pointer3.png');
+	COLOR: #3e3e3e;
+	display: inline-block; 
+	width: auto;
+	Height: auto;
+	line-height: 20px;
+	text-align: left;
+	text-decoration: none;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	FONT-SIZE: 15px;
+	font-weight: normal;
+	border: 0;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 24px;
+}
+
+/* ### [>] Cart, ... (MouseOver) ### */
+a.top_pointer3:hover, a.top_pointer3:focus {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/pointer3_on.png');
+	COLOR: #ca8800;
+
+	text-decoration: none;
+}
+
+
+
+/* ### [>] Login, ... ### */
+a.top_pointer2, a.top_pointer1:visited, a.top_pointer2:active, a.top_pointer2:link {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/pointer2.png');
+	COLOR: #4c4c4c;
+
+	display: inline-block; 
+	width: auto;
+	Height: auto;
+	line-height: 20px;
+	text-align: left;
+	text-decoration: none;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	FONT-SIZE: 15px;
+	font-weight: normal;
+	border: 0;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 24px;
+}
+
+/* ### [>] Login, ... (MouseOver) ### */
+a.top_pointer2:hover, a.top_pointer2:focus {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/pointer2_on.png');
+	COLOR: #f04e23;
+
+	text-decoration: none;
+}
+
+/* ### [>] Eng, [>] 中文 ### */
+a.a_language, a.a_language:visited, a.a_language:active, a.a_language:link {
+	color:#7a7a7a;
+
+	display: inline-block; 
+	width: auto;
+	Height: auto;
+	line-height: 10px;
+	text-align: left;
+	text-decoration: none;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	FONT-SIZE: 12px !important;
+	font-weight: normal;
+	border: 0;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+}
+
+/* ### [>] Eng, [>] 中文 (MouseOver) ### */
+a.a_language:hover, a.a_language:focus {
+	color:#9f40a8;
+	FONT-SIZE: 12px !important;
+	text-decoration: none;
+}
+
+/* ### Search [        ] ### */
+input.search_box {
+	border: 1px solid #cccccc;
+	color:#494949;
+    border-radius: 5px 0px 0px 5px;	
+	min-width:80px;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin: 5px 0px 20px 6px;
+	font-weight: normal;
+	vertical-align:middle;
+	height:26px;
+}
+
+/* ### Search [Button] ### */
+a.search_button, a.search_button:visited, a.search_button:active, a.search_button:link {
+	border: 2px solid #494949;
+	background-color:#494949;
+	color:#FFFFFF;
+
+	display: inline-block;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 6px;
+	padding-right: 7px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	margin: 5px 2px 20px 0px;
+	font-weight: normal;
+    border-radius: 0px 5px 5px 0px;
+	vertical-align:middle;
+	height:26px;
+	text-decoration:none;
+}
+
+/* ### Search [Button] (MouseOver) ### */
+a.search_button:hover {	
+	background-color:#ef4e22;
+	text-decoration:none;
+	border: 2px solid #ef4e22;
+}
+
+/* ### Cart ### */
+a.cart_button, a.cart_button:visited, a.cart_button:active, a.cart_button:link {
+	background-color:#e2240e;
+	border: 6px solid #e2240e;
+	color:#FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 6px;
+	padding-right: 7px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	margin: 5px 2px 20px 6px;
+	font-weight: normal;
+	vertical-align:middle;
+	height:26px;
+	text-decoration:none;
+}
+
+/* ### Cart (MouseOver) ### */
+a.cart_button:hover, a.cart_button:focus {
+	background-color:#fb442e;
+	border: 6px solid #fb442e;
+	text-decoration:none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* ### enquiry### */
+a.cart_button2, a.cart_button2:visited, a.cart_button2:active, a.cart_button2:link {
+	background-color:#e98010;
+	border: 6px solid #e98010;
+	color:#FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 6px;
+	padding-right: 7px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	margin: 5px 2px 20px 6px;
+	font-weight: normal;
+	vertical-align:middle;
+	height:26px;
+	text-decoration:none;
+}
+
+/* ### enquiry (MouseOver) ### */
+a.cart_button2:hover, a.cart_button2:focus {
+	background-color:#ffa21c;
+	border: 6px solid #ffa21c;
+	text-decoration:none;
+    border-radius: 5px 5px 5px 5px;
+	
+}
+
+
+/* ### Blog ### */
+a.cart_button3, a.cart_button3:visited, a.cart_button3:active, a.cart_button3:link {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/blog.jpg');
+	color:#FFFFFF;
+	border: 0px solid #e7a00e;
+
+    border-radius: 8px 8px 8px 8px;
+	display: inline-block;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 15px;
+	line-height: 15px;
+	padding-top: 12px;
+	padding-right: 22px;
+	padding-bottom: 13px;
+	padding-left: 40px;
+	margin: 5px 2px 20px 6px;
+	box-shadow: 2px 2px 2px 0px #dddddd;
+	font-weight: normal;
+	vertical-align:middle;
+	text-decoration:none;
+}
+
+/* ### Blog (MouseOver) ### */
+a.cart_button3:hover, a.cart_button3:focus {
+	background-image: url('http://ableeng.com.hk/DesignLibrary7/top/wd_ableeng/blog_on.jpg');
+	box-shadow: 0px 0px 0px 0px #dddddd;	
+	text-decoration:none;
+	border: 0px solid #ffbf3b;
+	
+}
+
+/* ### Wish List ### */
+a.wishlist_button, a.wishlist_button:visited, a.wishlist_button:active, a.wishlist_button:link {
+	background-color:#beac76;
+	border: 2px solid #beac76;
+	color:#FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 6px;
+	padding-right: 7px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	margin: 5px 2px 20px 6px;
+	font-weight: normal;
+	vertical-align:middle;
+	height:26px;
+	text-decoration:none;
+}
+
+/* ### Wish List (MouseOver) ### */
+a.wishlist_button:hover, a.wishlist_button:focus {	
+	background-color:#d6c369;
+	border: 2px solid #d6c369;
+	
+	text-decoration:none;
+}
+
+.top_text {
+	margin-top:5px;
+	line-height: 20px;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	FONT-SIZE: 12px;
+	font-weight: normal;
+	COLOR: #333333;
+}
+.top_text_line {
+	margin-top:5px;
+	COLOR: #c0ccdc;
+	line-height: 20px;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	FONT-SIZE: 12px;
+	font-weight: normal;
+/*	COLOR: transparent; */
+}

@@ -1,0 +1,296 @@
+/* ##################################### */
+/* ### Change background when scroll ### */
+/* ##################################### */
+.affix {
+  position:relative;
+}
+
+.navbar-default.affix { 
+background: rgba(255, 255, 255, 1);
+border-color: #E8E8E8;
+border-style: solid;
+border-bottom-width: 0px;
+}
+
+/* ################# */
+/* ### Main Menu ### */
+/* ################# */
+.hover-effect {
+  position: relative;
+  text-decoration: none;
+}
+.hover-effect:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 10px;
+  left: 0;
+  background-color:#a142af;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navbar-default .navbar-nav > li > .hover-effect:hover:before, 
+.navbar-default .navbar-nav > li > .hover-effect.active:before,
+.navbar-default .navbar-nav > .open > .hover-effect:before, 
+.navbar-default .navbar-nav > .open > .hover-effect:focus,
+.navbar-default .navbar-nav > .open > .hover-effect:active  {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+ 
+}
+
+.hover-effect_on {
+	color:#751a7c !important;
+	text-align:center;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-o-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-ms-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	overflow: hidden;
+}
+
+.hover-effect_on:before {
+	color:#751a7c !important;
+	text-align:center;
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+	background-color:#a142af;
+	height: 2px;
+	-webkit-transition-property: left, right;
+	transition-property: left, right;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.hover-effect_on:hover:before, .hover-effect_on:focus:before, .hover-effect_on.active:before {
+	color:#751a7c !important;
+	text-align:center;
+	left: 0;
+	right: 0;
+} 
+
+/* Main background */
+.navbar-default {
+background:#FFFFFF;
+    border-width: 0px;
+    border-radius: 0px;
+
+}
+
+/* Menu - Link */
+.navbar-default .navbar-nav > li > a {
+color:#242424;
+	font-weight:bold;
+/*	text-shadow: 0px 0px #000000;*/
+}
+
+.navbar-default .navbar-nav > li > .main_menu_on,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active 
+{
+background:#FFFFFF;
+color:#751a7c;
+/*	text-shadow: 0px 0px #000000;*/
+}
+
+/* Menu - Click */
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:active  {
+background:#FFFFFF;
+color:#751a7c;
+/*	text-shadow: 0px 0px #000000;*/
+}
+/* Pull Down Icon  */
+.navbar-default .navbar-toggle {
+  background-color: #FFFFFF;
+}
+/* Pull Down Icon - Mouse Over */
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:active  {
+  background-color: #FFFFFF;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* ###################### */
+/* ### Pull Down Menu ### */
+/* ###################### */
+.navbar-default .navbar-nav > li > .dropdown-menu {
+margin:0px;
+padding:0px;
+background-color:transparent;
+/* Remove Pull Down Menu's shadow: box-shadow:none !important; */
+}
+
+/* Pull Down Menu - Link */
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6ffffff',GradientType=0 );
+
+color:#242424;
+/*	text-shadow: 0px 0px #000000;*/
+}
+/* Pull Down Menu - Mouse Over */
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, 
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus, 
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:active {
+background: -moz-linear-gradient(top,  rgba(109,35,115,0.9) 0%, rgba(109,35,115,0.9) 100%);
+background: -webkit-linear-gradient(top,  rgba(109,35,115,0.9) 0%,rgba(109,35,115,0.9) 100%);
+background: linear-gradient(to bottom,  rgba(109,35,115,0.9) 0%,rgba(109,35,115,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e66d2373', endColorstr='#e66d2373',GradientType=0 );
+color: #FFFFFF;
+/*	text-shadow: 0px 0px #000000;*/
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6ffffff',GradientType=0 );
+
+color:#242424;
+}
+
+/* ############################ */
+/* ### Multi-level Sub Menu ### */
+/* ############################ */
+.dropdown-submenu{
+    position:relative;
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+}
+ 
+.dropdown-submenu > .dropdown-menu
+{
+background-color:transparent;
+top:0;
+left:100%;
+margin:0px;
+padding:0px;	
+/* Remove Pull Down Menu's shadow: box-shadow:none !important; */
+}
+
+.dropdown-submenu > .dropdown-menu a {
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6ffffff',GradientType=0 );
+
+color:#242424;
+}
+
+.dropdown-submenu > .dropdown-menu a:hover, 
+.dropdown-submenu > .dropdown-menu a:focus, 
+.dropdown-submenu > .dropdown-menu a:active {
+background: -moz-linear-gradient(top,  rgba(109,35,115,0.9) 0%, rgba(109,35,115,0.9) 100%);
+background: -webkit-linear-gradient(top,  rgba(109,35,115,0.9) 0%,rgba(109,35,115,0.9) 100%);
+background: linear-gradient(to bottom,  rgba(109,35,115,0.9) 0%,rgba(109,35,115,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e66d2373', endColorstr='#e66d2373',GradientType=0 );
+color: #FFFFFF;
+}
+
+.dropdown-submenu:hover > .dropdown-menu{
+display:block;
+}
+/* ### Right arrow color ### */
+.dropdown-submenu > a:after{
+display:block;
+content:" ";
+float:right;
+width:0;
+height:0;
+border-color:transparent;
+border-style:solid;
+border-width:5px 0 5px 5px;
+border-left-color:#242424;
+margin-top:9px;
+margin-right:-10px;
+}
+ 
+/* ### Right arrow color (Mouse Over) ### */
+.dropdown-submenu:hover > a:after{
+border-left-color: #FFFFFF;
+}
+ 
+.dropdown-submenu .pull-left{
+float:none;
+}
+ 
+.dropdown-submenu.pull-left > .dropdown-menu{
+left:-100%;
+margin-left:10px;
+/* Remove Pull Down Menu's shadow: box-shadow:none !important; */
+}
+
+/* ################# */
+/* ### Mega Menu ### */
+/* ################# */
+.yamm .nav,.yamm .collapse,.yamm .dropup,.yamm .dropdown {
+position: static;
+}
+.yamm .container {
+position: relative;
+}
+.yamm .yamm-dropdown-menu {
+left: auto;
+}
+.yamm .yamm-content {
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6ffffff',GradientType=0 );
+
+padding: 5px;
+}
+.yamm .yamm-content dl.mega-menu dt a {
+border-bottom: 1px solid #FFFFFF;
+}
+.yamm .yamm-content dl.mega-menu dt a,.yamm .yamm-content dl.mega-menu dd a {
+color:#242424;
+display: block;
+padding: 5px;
+line-height: 1.88;
+padding-top:10px;
+padding-bottom:10px;
+}
+.yamm .yamm-content dl.mega-menu dt a:hover,.yamm .yamm-content dl.mega-menu dd a:hover {
+color:#242424;
+text-decoration:none;
+}
+.yamm .dropdown.yamm-fw .yamm-dropdown-menu {
+left: 0;
+right: 0;
+}
+ul.nav li.dropdown:hover > ul.yamm-dropdown-menu {
+display: block;    
+}	

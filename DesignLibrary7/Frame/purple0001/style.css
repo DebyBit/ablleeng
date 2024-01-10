@@ -1,0 +1,26 @@
+.purple0001_ContentBg{
+background-color:#ffffff;
+display:inline-block;
+width:100%;
+border:0;
+padding-top:15px;
+padding-right:15px;
+padding-bottom:15px;
+padding-left:15px;
+BORDER-top: #f7f7f7 0px solid;
+BORDER-right: #e7d8e4 1px solid;
+BORDER-bottom: #b496b0 1px solid;
+BORDER-left: #f7f7f7 0px solid;	
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+-webkit-box-shadow: 1px 1px 10px 2px #f6f2f8;
+-moz-box-shadow: 1px 1px 10px 2px #f6f2f8;
+box-shadow: 1px 1px 10px 2px #f6f2f8;
+margin-bottom:15px;
+}
+
+.purple0001_ContentBg div.inside_margin{
+margin-left:0px;
+margin-right:0px;
+}

@@ -1,0 +1,35 @@
+.yamm .nav,.yamm .collapse,.yamm .dropup,.yamm .dropdown {
+position: static;
+}
+.yamm .container {
+position: relative;
+}
+.yamm .yamm-dropdown-menu {
+left: auto;
+}
+.yamm .yamm-content {
+padding: 5px;
+}
+.yamm .yamm-content dl.mega-menu dt a {
+border-bottom: 1px solid #FFFFFF;
+}
+.yamm .yamm-content dl.mega-menu dt a,.yamm .yamm-content dl.mega-menu dd a {
+display: block;
+padding: 5px;
+line-height: 1.88;
+padding-top:10px;
+padding-bottom:10px;
+}
+.yamm .yamm-content dl.mega-menu dt a:hover,.yamm .yamm-content dl.mega-menu dd a:hover {
+text-decoration:none;
+}
+.yamm .dropdown.yamm-fw .yamm-dropdown-menu {
+left: 0;
+right: 0;
+}
+.yamm .dropdown.yamm-fw2 .yamm-dropdown-menu {
+right: 15px;
+}
+ul.nav li.dropdown:hover > ul.yamm-dropdown-menu {
+display: block;    
+}	

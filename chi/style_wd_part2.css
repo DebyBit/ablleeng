@@ -1,0 +1,60 @@
+header {
+margin-bottom:-5px;
+}
+
+
+.back-to-top {
+cursor: pointer;
+position: fixed;
+bottom: 50px;
+right: 30px;
+display:none;
+z-index: 999;
+}
+
+.btn-back-to-top {
+border-radius: 6;
+color: #fff;
+background-color: rgba(0,0,0,0.5);
+}
+
+.btn-back-to-top:hover,
+.btn-back-to-top:focus,
+.btn-back-to-top:active {
+color: #fff;
+background-color: rgba(0,0,0,0.8);
+}
+
+.dropdown-menu > li > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+line-height: 1.88;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.dropdown-menu
+{
+min-width: 250px !important;
+}
+
+.dropdown-menu2
+{
+min-width: 350px !important;
+}
+
+.vertical-alignment-helper {
+display:table;
+height: 100%;
+width: 100%;
+}
+.vertical-align-center {
+/* To center vertically */
+display: table-cell;
+vertical-align: middle;
+}
+.modal-content {
+/* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+width:inherit;
+height:inherit;
+/* To center horizontally */
+margin: 0 auto;
+}

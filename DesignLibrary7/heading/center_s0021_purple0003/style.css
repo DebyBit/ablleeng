@@ -1,0 +1,20 @@
+.center_s0021_purple0003_heading_style {
+display: block;
+margin-top:45px;
+margin-bottom:30px;
+Height: auto;
+line-height: 52px;
+FONT-FAMILY: 'Open Sans', sans-serif;
+FONT-SIZE: 28px;
+font-weight: bold;
+COLOR: #484848;
+border: 0;
+padding-top: 0px;
+padding-right: 10px;
+padding-bottom: 0px;
+padding-left: 10px;
+background-repeat: no-repeat;
+background-position: center top;
+background-image: url(heading_bg.png);
+text-align:center;
+}

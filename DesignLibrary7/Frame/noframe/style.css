@@ -1,0 +1,14 @@
+.noframe_ContentBg{
+	display:inline-block;
+	width:100%;
+	border:0;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+}
+
+.noframe_ContentBg div.inside_margin{
+	margin-left:0px;
+	margin-right:0px;
+}

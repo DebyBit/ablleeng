@@ -1,0 +1,16 @@
+.transparent0001_fullpage_background {
+	background-color: transparent;
+	padding-right:0px;
+	padding-left:0px;
+  	-webkit-border-radius: 8px;
+  	-moz-border-radius: 8px;
+  	border-radius: 8px;	
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+@media (min-width: 992px) { /* Affect "md" */
+	.transparent0001_fullpage_background {
+	}
+}

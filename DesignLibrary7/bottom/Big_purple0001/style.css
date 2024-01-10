@@ -1,0 +1,199 @@
+/* ############## */
+/* ### PART 1 ### */
+/* ############## */
+
+div.bottominformation_topline{
+	/* ### Line 1 ### */
+	border-top-color:#ECE8E2;
+	border-style:solid;
+	border-top-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+}
+
+div.bottominformation_bg{
+	/* ### Line 2 ### */
+	border-top-color:#F2F1EE;
+
+	/* ### Background color ### */
+	background-color:#FAFAFA;
+
+	border-style:solid;
+	border-top-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 45px;
+	padding-bottom:45px;	
+	padding-right: 5px;
+	padding-left: 5px;
+	width:100%;
+}
+
+.bottominformation_text{
+	/* ### Text Color (Small lines) ### */
+	color:#732979;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+a.a_bottominformation_text:link,
+a.a_bottominformation_text:visited,
+a.a_bottominformation_text:active,
+a.a_bottominformation_text{
+	/* ### Text Color (Home, About Us, ...) ### */
+	color:#000000;
+	display:block;
+	border-bottom-color:#7C2684;
+	border-style:solid;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:1px;
+	
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 15px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	line-height: 30px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a.a_bottominformation_text:hover,
+a.a_bottominformation_text:focus{	
+	/* ### Text Color - Mouse Over (Home, About Us, ...) ### */
+	color:#000000;
+	text-decoration:none;
+}
+
+/* ############## */
+/* ### PART 2 ### */
+/* ############## */
+
+div.bottominformation2_bg{
+	/* ### Background color ### */
+	background-color:#FAFAFA;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;	
+	width:100%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.bottominformation2_text2{
+	/* ### Text Color (address..., (852) 2512 3123) ### */
+	color:#151515;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 15px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+a.a_bottominformation2_text:link,
+a.a_bottominformation2_text:visited,
+a.a_bottominformation2_text:active,
+a.a_bottominformation2_text{
+	/* ### Text Color (info@companyname.com) ### */
+	color:#151515;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 15px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	line-height: 20px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a.a_bottominformation2_text:hover,
+a.a_bottominformation2_text:focus{	
+	/* ### Text Color - Mouse Over (info@companyname.com) ### */
+	color:#000000;
+	text-decoration:none;
+}
+
+/* ############## */
+/* ### PART 3 ### */
+/* ############## */
+
+div.bottom_topline{
+	/* ### Line 1 ### */
+	border-top-color:#FAFAFA;
+
+	border-style:solid;
+	border-top-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+}
+
+div.bottom_bg{
+	/* ### Line 2 ### */
+	border-top-color:#E0D4E1;
+
+	/* ### Background color ### */
+	background-color:#F7F5F8;
+	
+	min-height:60px;
+	border-style:solid;
+	border-top-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	width:100%;
+}
+
+
+
+.bottom_text_copyright{
+	/* ### Text Color (Copyright) ### */
+	color:#363436;
+
+	font-weight: normal;
+}
+.bottom_text{
+	/* ### Text Color (Company Name) ### */
+	color:#771C7E;
+	FONT-FAMILY: 'Open Sans', sans-serif, Arial;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-bottom: 0;
+	line-height: 20px;
+	font-weight: 400;
+}
